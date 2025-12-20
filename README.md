@@ -1,4 +1,3 @@
-Here's a clear, concise English README.md for your well-log data:
 
 # Well-Log Data Repository
 This repository contains 5 well-log datasets (CSV format) used in the associated analysis/article.
