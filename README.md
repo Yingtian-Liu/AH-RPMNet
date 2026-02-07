@@ -19,8 +19,7 @@ Accurate pore pressure prediction is critical for drilling safety and reservoir 
 ```
 AH-RPMNet/
 ├── 📂 well-log-data/                    # Well log datasets (5 wells)
-│   ├── W1.csv, W2.csv, W3.csv, W4.csv, W5.csv
-│   └── README_data.md                   # Detailed data description
+│   └──W1.csv, W2.csv, W3.csv, W4.csv, W5.csv
 │
 ├── 📂 rock-physical-modeling/           # MATLAB rock physics workflow
 │   ├── main.m                           # Main execution script
@@ -29,7 +28,7 @@ AH-RPMNet/
 │   └── README_matlab.md                 # MATLAB implementation guide
 │
 ├── 📂 pretraining-normal-zones/         # Python pretraining module (PyTorch)
-│   ├── example.csv                      # data description (W1)
+│   ├── example.csv                      # data (W1)
 │   ├── main.py                          # Main training pipeline
 │   ├── config.py                        # Hyperparameters & settings
 │   ├── model.py                         # CNN-BiGRU network architecture
