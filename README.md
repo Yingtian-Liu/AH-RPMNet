@@ -15,13 +15,13 @@ Accurate pore pressure prediction is crucial for drilling safety and reservoir e
 
 ```
 .
-├── 📂 well-log-data/          # Log data from 5 wells (W1–W5)
+├── 📂 well-log data/          # Log data from 5 wells (W1–W5)
 │   ├── W1.csv
 │   ├── W2.csv
 │   ├── W3.csv
 │   ├── W4.csv
 │   └── W5.csv
-├── 📂 rock-physical-modeling/ # MATLAB codes for rock physics modeling
+├── 📂 rock physical modeling/ # MATLAB codes for rock physics modeling
 │   ├── main.m                # Main script to run the workflow
 │   ├── SCA.m
 │   ├── dem.m
@@ -29,12 +29,9 @@ Accurate pore pressure prediction is crucial for drilling safety and reservoir e
 │   ├── gassmink.m
 │   └── ode45m.m
 ├── 📂 pretraining-normal-zones/ # PyTorch code for pretraining in normal compaction zones
-│   ├── main.py              # Main training script
-│   ├── model.py             # Network architecture (CNN + Bi-GRU)
-│   ├── dataloader.py        # Data loading and preprocessing
-│   └── config.yaml          # Hyperparameters
+│   ├── main.py              # Data loading and preprocessing/Main training script/Network architecture (CNN + Bi-GRU)
+│   └── example.csv              
 ├── 📜 README.md              # This file
-└── 📜 LICENSE                # MIT License
 ```
 
 ## ⚙️ Installation & Dependencies
