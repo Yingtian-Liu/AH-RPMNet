@@ -2,8 +2,6 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.9+-ee4c2c.svg)](https://pytorch.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b.svg)](#citation)
 
 This repository contains the official implementation of **AH-RPMNet**, a novel hybrid deep learning framework for pore pressure prediction that integrates rock physics modeling with deep neural networks.
 
